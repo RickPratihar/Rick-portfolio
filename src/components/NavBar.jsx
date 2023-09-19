@@ -56,7 +56,7 @@ const NavBar = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-gray-400 md:hidden mr-20"
+        className="cursor-pointer pr-4 z-10 text-gray-400 md:hidden "
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>

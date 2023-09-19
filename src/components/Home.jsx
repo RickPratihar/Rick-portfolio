@@ -12,7 +12,7 @@ const Home = () => {
       name="home"
       className="h-screen w-full  from-blue-300 via-black to-gray-800 "
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row overflow-x-hidden pt-10 ">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row overflow-x-hidden">
         <div className="flex flex-col justify-center h-full  ">
           <p
             className=" text-white md:text-5xl font-bold relative "
@@ -35,7 +35,7 @@ const Home = () => {
 
           <div data-aos="fade-up">
             <Link
-              to="portfolio"
+              to="Project"
               smooth
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
