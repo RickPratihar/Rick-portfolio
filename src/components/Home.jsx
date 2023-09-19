@@ -23,9 +23,12 @@ const Home = () => {
           </p>
 
           <p className="text-white text-xl py-4 max-w-md" data-aos="fade-right">
-            A frontend developer with a love for crafting stunning websites and
-            a strong enthusiasm for mobile application development.I'm excited
-            to showcase my project and share my journey with you.
+            Enthusiastic and dedicated software engineering graduate with a
+            strong passion for front-end development using React.js. Eager to
+            apply my skills and knowledge to create engaging and user-friendly
+            web applications while continuously learning and growing in a
+            collaborative team environment.I'm excited to showcase my project
+            and share my journey with you.
             <br />
             <br />
             <span className="text-2xl font-bold text-blue-300">
@@ -49,7 +52,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div >
+        <div>
           <img
             src={MyImage}
             alt=""
