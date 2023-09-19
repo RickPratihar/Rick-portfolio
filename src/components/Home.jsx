@@ -12,8 +12,8 @@ const Home = () => {
       name="home"
       className="h-screen w-full  from-blue-300 via-black to-gray-800 "
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row  ">
-        <div className="flex flex-col justify-center h-full mt-20 ">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row overflow-x-hidden pt-20 ">
+        <div className="flex flex-col justify-center h-full  ">
           <p
             className=" text-white md:text-5xl font-bold relative "
             data-aos="fade-up"
