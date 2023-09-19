@@ -28,9 +28,11 @@ function About() {
           {/* <RxTriangleLeft className="absolute top-10 -left-10 text-white text-[70px] lg-max:hidden" /> */}
           I'm{" "}
           <span className="font-bold mx-2 text-blue-400">Rick Pratihar </span>{" "}
-          from in India. I'm a passionate frontend developer with hands-on
-          experience in building innovative Userfrindly scalable web
-          applications.
+          from in India. Enthusiastic and dedicated software engineering graduate with a
+            strong passion for front-end development using React.js. Eager to
+            apply my skills and knowledge to create engaging and user-friendly
+            web applications while continuously learning and growing in a
+            collaborative team environment
           <br />
           <br />
           My educational background includes a Bachelor of Engineering degree in

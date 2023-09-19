@@ -10,12 +10,12 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full  from-blue-300 via-black to-gray-800"
+      className="h-screen w-full  from-blue-300 via-black to-gray-800 "
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row  ">
+        <div className="flex flex-col justify-center h-full mt-20 ">
           <p
-            className=" text-white md:text-5xl font-bold relative"
+            className=" text-white md:text-5xl font-bold relative "
             data-aos="fade-up"
           >
             Hello, I'm{" "}
@@ -23,11 +23,7 @@ const Home = () => {
           </p>
 
           <p className="text-white text-xl py-4 max-w-md" data-aos="fade-right">
-            Enthusiastic and dedicated software engineering graduate with a
-            strong passion for front-end development using React.js. Eager to
-            apply my skills and knowledge to create engaging and user-friendly
-            web applications while continuously learning and growing in a
-            collaborative team environment.I'm excited to showcase my project
+            I am a front-end developer creating user friendly stunning web application.I'm excited to showcase my project
             and share my journey with you.
             <br />
             <br />
