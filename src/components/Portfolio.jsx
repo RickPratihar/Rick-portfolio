@@ -19,7 +19,7 @@ const Portfolio = () => {
           id: 1,
           src: MyPortfolio,
           name: "My Portfolio",
-          demoLink: "https://rick-pratihar-portfolio.netlify.app/", 
+          demoLink: "https://rickpratihar-portfolio.netlify.app/", 
           githubRepo: "https://github.com/RickPratihar/React-portfolio",
           techstack: "Reactjs, Tailwind Css, Framer-motion, Aos Libery",
         },
