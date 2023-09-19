@@ -1,9 +1,9 @@
 # Getting Started with my portfolio
 
 
+![Screenshot_20230918_055100](https://github.com/RickPratihar/Rick-portfolio/assets/103872207/db95df72-8cdc-49ec-994b-e13db2980fbb)
 
-![Screenshot_20230918_055100](https://github.com/RickPratihar/React-portfolio/assets/103872207/7ad590fd-154b-4fff-95c8-c446c1c19d38)
-<h2>Live Demo: https://reliable-entremet-f98d45.netlify.app/</h2>
+<h2>Live Demo: https://rickpratihar-portfolio.netlify.app//</h2>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
