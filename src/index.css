@@ -84,4 +84,11 @@ body {
   *{
     overflow-x: hidden;
   }
+  .img{
+    height:20rem;
+    width: 20rem;
+    margin-top: 30%;
+    margin-bottom: 30%;
+  }
+
 }

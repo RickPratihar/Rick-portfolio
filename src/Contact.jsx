@@ -27,15 +27,16 @@ const Contact = () => {
         </div>
 
         <div
-          className=" flex justify-center items-center"
+          className=" flex justify-center items-center  "
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
+          
         >
           <form
             action="https://formspree.io/f/mqkvdape"
             method="POST"
-            className=" flex flex-col w-full md:w-1/2"
+            className=" flex flex-col w-full md:w-1/2 overflow-y-hidden"
           >
             <input
               type="text"

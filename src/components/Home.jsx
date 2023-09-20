@@ -13,7 +13,7 @@ const Home = () => {
       className="h-screen w-full  from-blue-300 via-black to-gray-800 "
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row overflow-x-hidden">
-        <div className="flex flex-col justify-center h-full  ">
+        <div className="flex flex-col justify-center h-full ">
           <p
             className=" text-white md:text-5xl font-bold relative "
             data-aos="fade-up"
@@ -48,11 +48,11 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
+        <div className=" overflow-y-hidden  ">
           <img
             src={MyImage}
             alt=""
-            className=" rounded-full pl-10 w-80 flex-shrink-0 "
+            className=" img rounded-full pl-8 w-80 flex-shrink-0 "
           />
         </div>
       </div>
