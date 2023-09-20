@@ -46,7 +46,7 @@ const Services = () => {
           {service.map(({ id, title, des,style, }) => (
             <div
               key={id}
-              className={`shadow-lg hover:scale-105 duration-500 py-2 rounded-lg  p-8 ${style}` }
+              className={`shadow-lg hover:scale-105 duration-500 py-2 rounded-lg  p-8 ${style} mb-5` }
               data-aos="fade-down"  >
                 <FaPaintBrush/>
               <h2 className="mt-4 mb-5">{title}</h2>

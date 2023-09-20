@@ -81,7 +81,7 @@ const Portfolio = () => {
     
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 " >
               {portfolios.map(({ id, src, demoLink, githubRepo, name, techstack }) => (
-                <div key={id} className="shadow-md shadow-gray-600 rounded-lg" data-aos="fade-down">
+                <div key={id} className="shadow-md shadow-gray-600 rounded-lg mb-5" data-aos="fade-down">
                   <img
                   width={1000}
                   height={1000}
