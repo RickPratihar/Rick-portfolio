@@ -1,8 +1,6 @@
 import React from 'react';
-import CarRental from "../assets/portfolio/car new.jpg";
 import MyPortfolio from "../assets/portfolio/Portfolio.jpg";
 import ChatApp from "../assets/portfolio/chat-app.jpg";
-import TourWebsite from "../assets/portfolio/tourwebsite.jpg";
 import ExpenseTracker from "../assets/portfolio/Expense tracker.jpg";
 import { FaGithub  } from 'react-icons/fa';
 
@@ -41,11 +39,11 @@ const Portfolio = () => {
         },
         {
           id: 4,
-          name: "Tour and Travle Website",
-          src: TourWebsite,
-          demoLink: "https://tour-website-rick.netlify.app/", 
-          githubRepo: "https://github.com/RickPratihar/Tour-Website",
-          techstack: "React, Css3",
+          name: "RpBank",
+          src: "https://i.ibb.co/BK1Hn0x/Screenshot-2022-08-08-at-4-05-48-PM.png",
+          demoLink: "https://rpbank.netlify.app/", 
+          githubRepo: "https://github.com/RickPratihar/Hoobank",
+          techstack: "React, Tailwind Css",
         },
         {
           id: 5,
@@ -54,6 +52,14 @@ const Portfolio = () => {
           demoLink: "https://chat-app-b77fcf.netlify.app/app", 
           githubRepo: "https://github.com/RickPratihar/mordernchatapp",
           techstack: "React v18, Mui v5, Redux",
+        },
+        {
+          id: 6,
+          name: "BrainWeb",
+          src: "https://i.ibb.co/Kqdv8j1/Image-from.png",
+          demoLink: "https://brainweb.netlify.app/", 
+          githubRepo: "https://github.com/RickPratihar/Brainwave?tab=readme-ov-file#introduction",
+          techstack: "Vite, React, Tailwind Css",
         },
   
        
