@@ -3,6 +3,7 @@ import MyPortfolio from "../assets/portfolio/Portfolio.jpg";
 import ChatApp from "../assets/portfolio/chat-app.jpg";
 import ExpenseTracker from "../assets/portfolio/Expense tracker.jpg";
 import { FaGithub  } from 'react-icons/fa';
+import CarRental from "../assets/portfolio/CarRental.jpg";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
