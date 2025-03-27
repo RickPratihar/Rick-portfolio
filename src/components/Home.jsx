@@ -1,5 +1,5 @@
 import React from "react";
-import MyImage from "../assets/my img.jpeg";
+import MyImage from "../assets/img.jpeg";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import AOS from "aos";
@@ -12,8 +12,8 @@ const Home = () => {
       name="home"
       className="h-screen w-full  from-blue-300 via-black to-gray-800 "
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row overflow-x-hidden">
-        <div className="flex flex-col justify-center h-full ">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-between h-full px-4 md:flex-row overflow-x-hidden ">
+        <div className="flex flex-col justify-center h-full">
           <p
             className=" text-white md:text-5xl font-bold relative "
             data-aos="fade-up"
@@ -23,8 +23,7 @@ const Home = () => {
           </p>
 
           <p className="text-white text-xl py-4 max-w-md" data-aos="fade-right">
-            I am a front-end developer creating user friendly stunning web application.I'm excited to showcase my project
-            and share my journey with you.
+          I am a MERN Stack Developer crafting dynamic and user-friendly web applications. Excited to showcase my projects and share my journey with you.
             <br />
             <br />
             <span className="text-2xl font-bold text-blue-300">
@@ -35,7 +34,7 @@ const Home = () => {
 
           <div data-aos="fade-up">
             <Link
-              to="Project"
+              to="project"
               smooth
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
@@ -52,7 +51,7 @@ const Home = () => {
           <img
             src={MyImage}
             alt=""
-            className=" img rounded-full pl-8 w-80 flex-shrink-0 "
+            className=" img rounded-full w-80  flex-shrink-0 "
           />
         </div>
       </div>

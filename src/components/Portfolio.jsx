@@ -75,8 +75,8 @@ const Portfolio = () => {
     
       return (
         <div
-          name="Project"
-          className=" from-blue-300 via-black to-gray-800"
+          name="project"
+          className=" from-blue-300 via-black to-gray-800 pt-20"
         >
           <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
             <div className="pb-8">
@@ -92,7 +92,7 @@ const Portfolio = () => {
                   <img
                   width={1000}
                   height={1000}
-                  className="max-w-full h-48 max-h-full object-cover object-fill object-top rounded-lg  duration-200 hover:scale-105 "
+                  className="max-w-full h-48 max-h-full object-cover  object-top rounded-lg  duration-200 hover:scale-105 "
                     src={src}
                     alt=""
                     //className="rounded-md duration-200 hover:scale-105"

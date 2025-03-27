@@ -7,9 +7,7 @@ import Skills from "./components/Skills";
 import SocialLinks from "./components/SocialLinks";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
-
-
-
+import Experience from "./components/Experience";
 
 
 function App() {
@@ -18,6 +16,7 @@ function App() {
      <NavBar />
      <Home />
      <About />
+     <Experience/>
      <SocialLinks />
      <Portfolio />
     <Skills />
